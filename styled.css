@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 700px;
+  margin: 0 auto;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #858786;
+  font-family: "Helvetica", "Arial", sans-serif;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+h4 {
+    margin-top: 20px;
+    padding: 35px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #CAB7A2; /* Khaki Web */
+}
+
+h1, h2 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  padding: 30px;
+  font-size: 25px;
+}
+
+h1 {
+  background-color: #c4b1ae; /* Silver pink */
+}
+
+h2 {
+  background-color: #b4ada3; /* Silver Chalice */
+}
+
+h3 {
+  padding: 20px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.introduction, .workexperience, .projects{
+padding: 15px;
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: normal;
+font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.contact {
+  margin-bottom: 20px;
+  font-weight: lighter;
+  text-align: left;
+}
